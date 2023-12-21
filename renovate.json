@@ -1,3 +1,4 @@
 {
-  "prHourlyLimit": 3
+  "prHourlyLimit": 3,
+  "dependencyDashboard": true
 }
