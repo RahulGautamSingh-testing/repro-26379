@@ -3,18 +3,17 @@
 ```log
 DEBUG: Parsing configs
 DEBUG: Checking for config file in C:\Users\Acer\Desktop\renovate/config.js
- WARN: Found warnings in the config file C:\Users\Acer\Desktop\renovate/config.js
+ WARN: Config validation warnings in file
+       "configFile": "C:\\Users\\Acer\\Desktop\\renovate/config.js",
        "warnings": [
          {
            "topic": "Deprecation Warning",
            "message": "Direct editing of prTitle is now deprecated. Please edit commitMessage subcomponents instead as they will be passed through to prTitle."
          }
        ]
-DEBUG: env RENOVATE_CONFIG
-       "envRC": "{\"enabled\":\"invalid-value\"}"
 DEBUG: Detected config in env RENOVATE_CONFIG
        "config": {"enabled": "invalid-value"}
- WARN: Found errors in the config RENOVATE_CONFIG
+ WARN: Config validation errors found in RENOVATE_CONFIG
        "errors": [
          {
            "topic": "Configuration Error",
